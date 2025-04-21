@@ -8,6 +8,7 @@ public class HelloConfig {
 
     @Bean
     public HelloController helloController() {
+        //
         return new HelloController();
     }
 }
